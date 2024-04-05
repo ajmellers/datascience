@@ -1,0 +1,24 @@
+Program Version,EnergyPlus, Version 23.2.0-7636e6b3e9, YMD=2024.04.05 14:59,
+   ** Warning ** Version: in IDF="24.1" not the same as expected="23.2"
+   ** Warning ** Version: in IDF="24.1" not the same as expected="23.2"
+   ** Warning ** Weather file location will be used rather than entered (IDF) Location object.
+   **   ~~~   ** ..Location object=DENVER STAPLETON INTL ARPT CO USA WMO=724690
+   **   ~~~   ** ..Weather File Location=Nottingham-East.Midlands.AP ENG GBR Custom-034185 WMO#=034185
+   **   ~~~   ** ..due to location differences, Latitude difference=[13.06] degrees, Longitude difference=[103.54] degrees.
+   **   ~~~   ** ..Time Zone difference=[7.0] hour(s), Elevation difference=[94.21] percent, [1517.70] meters.
+   ** Warning ** SetUpDesignDay: Entered DesignDay Barometric Pressure=83411 differs by more than 10% from Standard Barometric Pressure=100209.
+   **   ~~~   ** ...occurs in DesignDay=DENVER STAPLETON INTL ARPT ANN HTG 99% CONDNS DB, Standard Pressure (based on elevation) will be used.
+   ** Severe  ** HeatBalanceManager::SearchWindow5DataFile: "..\datasets\Window5DataFile.dat" not found.
+   **   ~~~   **   Paths searched:
+   **   ~~~   **     Current Working Directory: "/private/var/folders/s4/22x3mwpj4bldz0pl87jpf5th0000gn/T/datasets"
+   **   ~~~   **     IDF Directory: "/Users/alexmellers/Documents/GitHub/datascience/datasets"
+   **   ~~~   **     EnergyPlus Executable Directory: "/Applications/datasets"
+   **  Fatal  ** Program terminates due to these conditions.
+   ...Summary of Errors that led to program termination:
+   ..... Reference severe error count=1
+   ..... Last severe error=HeatBalanceManager::SearchWindow5DataFile: "..\datasets\Window5DataFile.dat" not found.
+   ************* Warning:  Node connection errors not checked - most system input has not been read (see previous warning).
+   ************* Fatal error -- final processing.  Program exited before simulations began.  See previous error messages.
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Terminated--Fatal Error Detected. 4 Warning; 1 Severe Errors; Elapsed Time=00hr 00min  0.12sec
